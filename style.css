@@ -1,0 +1,230 @@
+/* 
+    
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+body{
+    background-color: rgba(186, 76, 255, 0.955);
+}
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 5px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/*Css for navbar section/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+    height: 60px;
+    margin-top: 11px;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.menu ul li:hover{
+    background-color: pink;
+}
+
+.menu ul li.active1{
+    background-color:white;
+}
+
+.menu ul li.active1 a{
+    color: whitesmoke
+}
+
+.menu ul li a:hover{
+    color: whitesmoke
+}
+
+.menu ul li a{
+    font-size: 20px;
+}
+/* CSS for work SEarch Section */
+
+.workers-search{
+    background-image: url(download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.workers-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    
+    background-color: yellow;
+}
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+.text-center {
+    text-align: center;
+    color: red;
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+   
+}
+.float-text{
+    color:black;
+    position: absolute;
+    bottom: -28px;
+    left: 20%;
+}
+/* CSS for work Fields */
+.Work-Fields{
+    background-color: #f97d41;
+    padding: 4% 0;
+}
+
+.Work-Fields-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.Work-Fields-img{
+    width: 20%;
+    float: left;
+}
+
+
+
+.Work-Fields-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.carpenter-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.carpenter-details{
+    font-size: 1rem;
+    color: #747d8c;
+}
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+/* CSS for Register Section */
+.categories{
+    padding: % 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
